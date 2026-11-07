@@ -1,0 +1,5 @@
+# Ignore VS Code configuration folder
+.vscode/
+
+# Ignore IntelliJ / WebStorm / PyCharm configuration folder
+.idea/
