@@ -20,7 +20,7 @@
   MPU6050  SDA -> GPIO9   SCL -> GPIO8   AD0 -> GND
   Motor 1 (front-left)  gate -> GPIO11
   Motor 2 (front-right) gate -> GPIO7
-  Motor 3 (rear-right)  gate -> GPIO2
+  Motor 3 (rear-right)  gate -> GPIO1
   Motor 4 (rear-left)   gate -> GPIO13
   Battery ADC (reserved, future) -> GPIO4
 

@@ -1,4 +1,4 @@
-# Project: DIY ESP32-S3 Super Mini Smartphone-Controlled Coreless Quadcopter
+# Engineering Debug Log & Hardware Notes
 
 ## Overview
 A from-scratch lightweight quadcopter built for learning embedded systems, electronics, and flight control. No commercial flight controller — the ESP32-S3 handles sensor reading, PID stabilization, and motor output itself. Phone controls it over WiFi (ESP32 hosts its own network, no internet/router needed). Target all-up weight: ~60-65g.
@@ -21,7 +21,7 @@ A from-scratch lightweight quadcopter built for learning embedded systems, elect
 | MPU6050 AD0 | GND (sets address 0x68) |
 | Motor 1 (front-left) gate | GPIO11 |
 | Motor 2 (front-right) gate | GPIO7 |
-| Motor 3 (rear-right) gate | GPIO2 (moved off GPIO1 during earlier debugging) |
+| Motor 3 (rear-right) gate | GPIO1 (tested & confirmed on GPIO1) |
 | Motor 4 (rear-left) gate | GPIO13 |
 | Battery voltage monitor (reserved, not yet implemented) | GPIO4 |
 
